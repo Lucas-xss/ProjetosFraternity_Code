@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 35px 121px;
+    background-color: #140C1F;
+    color: white;
+    font-family: 'Oxanium', cursiva;
+}
+
+
+
+/* --------------- CAMPO DO HEADER ------------------- */
+header {
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* heading panel */
+header section {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100em;
+    justify-content: space-between;
+}
+
+/* campo meunu*/
+.header-nav {
+    /*border: 1px solid yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 0.5;
+    gap: 10px;
+    order: 1;    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: bl(20.8333px);
+}
+.header-nav a {
+    text-decoration: none;
+    color: white;
+}
+.header-nav p {
+    height: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+/*campo logo*/
+.header-logo {
+    /*border: 1px solid white;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header-logo svg {
+    width: 93px;
+    height: 93px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -5px;
+}
+.header-logo h1 {
+    /*width: 180px; -- não fez diferença*/
+    height: 63px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-transform: uppercase;
+    order: 1;
+}
+
+/* Campo usuário*/
+.header-creat {
+    /*border: 1px solid green;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0.05;
+    justify-content: space-between;
+    order: 2;
+}
+
+.header-creat a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 10px;
+    width: 169px;
+    height: 43px;
+    background: #AD1AAF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*Configurar texto btn*/
+.header-creat a > p {
+    /*border: 1px solid yellow;*/
+    color: white;
+    width: 137px;
+    height: 23px;
+    font-family: 'Oxanium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.header-creat img {
+    /*ADD borda na imagem*/
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    order: 1;
+}
+
+
+/*parte do conteúdo*/
+main {
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 113px;
+}
+
+
+
+/* ------------ CAMPO CONTÚDO 01 --------------------*/
+main .field-center {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 240px;
+}
+/*lado do conteudo da esquerda  */
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 120px;
+    order: 0;
+    border: 1px solid blue;
+}
+/*campo do  texto do conteúdo*/
+.field-content {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    gap: 43px;
+    width: 728px;
+    height: 313px;
+   
+}
+.field-content h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    text-transform: uppercase; 
+}
+.field-content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #c6c6c6;
+}
+/*campo do botão*/
+.field-button {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    
+    width: 524px;
+    height: 70px;
+    order: 1;
+}
+
+.field-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+   
+}
+.button-explore {
+    /*padding: 23px 50px;*/
+    border: 1px solid blue;
+    background: #AD1AAF; 
+    padding: 23px 50px;
+}
+
+.button-creat {
+    background: rgba(173, 26, 175, 0.05);
+    border: 1px solid #AD1AAF;
+    padding: 23px 82px;
+}
+
+/*lado das cartas na direita*/
+.cards-side {
+    border: 1px solid rgb(0, 195, 255);
+
+}
+
+
+
