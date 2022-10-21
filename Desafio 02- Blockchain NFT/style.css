@@ -144,8 +144,9 @@ main .field-center {
     border: 1px solid yellow;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: flex-end;
-    gap: 240px;
+    /*gap: 240px;*/
 }
 /*lado do conteudo da esquerda  */
 .left-side {
@@ -155,7 +156,7 @@ main .field-center {
     align-items: flex-start;
     gap: 120px;
     order: 0;
-    border: 1px solid blue;
+   
 }
 /*campo do  texto do conteúdo*/
 .field-content {
@@ -183,7 +184,7 @@ main .field-center {
 }
 /*campo do botão*/
 .field-button {
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -203,7 +204,7 @@ main .field-center {
 }
 .button-explore {
     /*padding: 23px 50px;*/
-    border: 1px solid blue;
+    
     background: #AD1AAF; 
     padding: 23px 50px;
 }
@@ -216,9 +217,106 @@ main .field-center {
 
 /*lado das cartas na direita*/
 .cards-side {
+    height: 543px;
     border: 1px solid rgb(0, 195, 255);
-
+    order: 1;    
 }
+.cards-side ul {
+    display: flex;
+    list-style: none;
+} 
+/*Revisar em casa*/
+.card-one {
+    box-sizing: border-box;
+    width: 321px;
+    height: 397px;
+    box-sizing: border-box;
+    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 101.7%);
+    border-width: 2.5px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(17.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 41.6667px;
+}
+.card-one img {
+    box-sizing: border-box;
+
+position: absolute;
+width: 287.5px;
+height: 281.33px;
+left: 16.67px;
+top: 19.67px;
+
+background: url(50e513115094373.jpg);
+border-bottom: 2.5px solid #8C30F5;
+backdrop-filter: blur(10.4167px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 41.6667px;
+}
+
+.card-one h6 {
+    position: absolute;
+width: 177px;
+height: 31px;
+left: 72px;
+top: 317px;
+
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 31px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.card-one p {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 110px;
+    top: 356px;
+
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+/*
+.card-two {
+    box-sizing: border-box;
+    width: 321px;
+    height: 397px;
+    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 57.1%);
+    border-width: 2.5px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(17.915px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 41.6667px;
+    
+}
+.card-three {
+    box-sizing: border-box;
+    width: 321px;
+    height: 397px;
+    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 101.7%);
+    border-width: 2.5px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(17.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 41.6667px;
+}
+
 
 
 
