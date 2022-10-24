@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 35px 121px;
+    margin: 35px 50px;
     background-color: #140C1F;
     color: white;
     font-family: 'Oxanium', cursiva;
@@ -141,18 +141,19 @@ main {
 
 /* ------------ CAMPO CONTÚDO 01 --------------------*/
 main .field-center {
-    border: 1px solid yellow;
+   
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
     /*gap: 240px;*/
+    
 }
 /*lado do conteudo da esquerda  */
 .left-side {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: flex-start;
     gap: 120px;
     order: 0;
@@ -160,37 +161,34 @@ main .field-center {
 }
 /*campo do  texto do conteúdo*/
 .field-content {
+    
     display: flex;
     flex-direction: column;
     order: 0;
     gap: 43px;
-    width: 728px;
-    height: 313px;
-   
 }
 .field-content h1 {
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 80px;
+    font-size: 50px;
+    line-height: 50px;
     text-transform: uppercase; 
 }
 .field-content p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: capitalize;
     color: #c6c6c6;
 }
 /*campo do botão*/
 .field-button {
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 40px;
     justify-content: space-around;
-    padding: 0px;
-    
     width: 524px;
     height: 70px;
     order: 1;
@@ -217,8 +215,7 @@ main .field-center {
 
 /*lado das cartas na direita*/
 .cards-side {
-    height: 543px;
-    border: 1px solid rgb(0, 195, 255);
+    display: flex;
     order: 1;    
 }
 .cards-side ul {
@@ -227,96 +224,185 @@ main .field-center {
 } 
 /*Revisar em casa*/
 .card-one {
-    box-sizing: border-box;
-    width: 321px;
-    height: 397px;
-    box-sizing: border-box;
+    flex-direction: column;
     background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 101.7%);
     border-width: 2.5px 0px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(17.5px);
-    /* Note: backdrop-filter has minimal browser support */
     border-radius: 41.6667px;
+    padding: 19.67px 13px 20px 13px ;
+
+    margin-top: 82px;
+    margin-bottom: 64px;
+    width: 250px;
+    
+    z-index: 0;
+
+    
 }
-.card-one img {
-    box-sizing: border-box;
-
-position: absolute;
-width: 287.5px;
-height: 281.33px;
-left: 16.67px;
-top: 19.67px;
-
-background: url(50e513115094373.jpg);
-border-bottom: 2.5px solid #8C30F5;
-backdrop-filter: blur(10.4167px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 41.6667px;
+.card-one img { 
+    width: 250px;
+    order: 0;
 }
 
 .card-one h6 {
-    position: absolute;
-width: 177px;
-height: 31px;
-left: 72px;
-top: 317px;
 
-font-family: 'Oxanium';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 31px;
-text-transform: capitalize;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    order: 1;
+    
 
-color: #FFFFFF;
 }
 
 .card-one p {
-    position: absolute;
-    width: 102px;
-    height: 21px;
-    left: 110px;
-    top: 356px;
-
     font-family: 'Oxanium';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
     text-transform: capitalize;
-
     color: #FFFFFF;
+    text-align: center;
+    margin-top: 8px;
+    order: 2;
+
 }
-/*
+
 .card-two {
-    box-sizing: border-box;
-    width: 321px;
-    height: 397px;
-    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 57.1%);
-    border-width: 2.5px 0px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(17.915px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 41.6667px;
-    
-}
-.card-three {
-    box-sizing: border-box;
-    width: 321px;
-    height: 397px;
+    flex-direction: column;
     background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 101.7%);
     border-width: 2.5px 0px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(17.5px);
-    /* Note: backdrop-filter has minimal browser support */
-
     border-radius: 41.6667px;
-}
+    padding: 19.67px 13px 20px 13px;
+    
+    margin-bottom: 146px;
+    margin-left: -130px;
+    width: 250px;
+    
 
+    z-index: 1;
+/*
+    position: absolute;
+    left: auto;
+    top: auto;
+    
+    
+*/
+    
+}
+.card-two img { 
+    width: 250px;
+    order: 0;
+ }
+ 
+ .card-two h6 {
+ 
+     font-family: 'Oxanium';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 25px;
+     line-height: 31px;
+     text-transform: capitalize;
+     margin-top: 5px;
+     color: #FFFFFF;
+     text-align: center;
+     order: 1;
+     
+ 
+ }
+ 
+ .card-two p {
+     font-family: 'Oxanium';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 21px;
+     text-transform: capitalize;
+     color: #FFFFFF;
+     text-align: center;
+     margin-top: 8px;
+     order: 2;
+ }
+ 
+.card-three {
+    flex-direction: column;
+    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 101.7%);
+    border-width: 2.5px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(17.5px);
+    border-radius: 41.6667px;
+    padding: 19.67px 13px 0px 13px;
+    margin-top: 146px;
+    margin-left: -80px;
+    width: 250px;
+   
+    /*
+        position: absolute;
+        left: auto;
+        top: auto;
+        
+        z-index: 0;
+    */
+}
+.card-three img { 
+    width: 250px;
+    order: 0;
+ }
+ 
+ .card-three h6 {
+ 
+     font-family: 'Oxanium';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 25px;
+     line-height: 31px;
+     text-transform: capitalize;
+     margin-top: 5px;
+     color: #FFFFFF;
+     text-align: center;
+     order: 1;
+     
+ 
+ }
+ 
+ .card-three p {
+     font-family: 'Oxanium';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 21px;
+     text-transform: capitalize;
+     color: #FFFFFF;
+     text-align: center;
+     margin-top: 8px;
+     order: 2;
+    
+ }
+ 
+
+
+ /*imagem de fundo da estrela*/
+
+.star-image {
+    margin-top: -85px;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+.star-image img {
+    width: 100%;
+}
 
 
 
