@@ -449,9 +449,6 @@ main .field-center {
 
 /*Campo das cartas do suporte*/
 .field-cardsSupport {
-    display: flex;
-    align-items: center;
-    
     order: 1;
 }
 .field-cardsSupport ul{
@@ -462,21 +459,6 @@ main .field-center {
     text-align: center;
     gap: 20px;
 
-}
-.carSupport01 {
-    order: 0;
-}
-.carSupport02 {
-    order: 1;
-}
-.carSupport03 {
-    order: 2;
-}
-.carSupport04 {
-    order: 3;
-}
-.carSupport05 {
-    order: 4;
 }
 .carSupport01, .carSupport02,
 .carSupport03, .carSupport04,
@@ -526,3 +508,91 @@ border: 10px solid ;
 
 
 /* ----------------- Campo 03 ------------------ */
+/*Campo da section*/
+.field-works {
+    margin-top: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+/*Campo do conteudo*/
+.field-content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+    width: 386px;
+    height: 169px;
+}
+.field-content3 h3 {
+    text-align: center;
+    width: 386px;
+    height: 130px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    order: 0;
+    margin: -100px 0px;
+}
+.field-content3 svg {
+    width: 172px;
+    height: 168px;
+    background: #AD1AAF;
+    filter: blur(225px);
+    flex: none;
+    order: 1;     
+}
+
+/*Campo das tarefas*/
+.field-allSteps {
+    margin-top: -64px;
+    order: 1;
+}
+.field-allSteps ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    width: 907px;
+    height: 168px;
+    text-align: center;
+    list-style: none;
+}
+.steps01, .steps02, .steps03, .steps04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    order: 0;
+}
+.steps01 svg, .steps02 svg, .steps03 svg, .steps04 svg {
+    background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    padding: 30px;
+}
+.steps01 h6, .steps02 h6, .steps03 h6, .steps04 h6 {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    order: 1;
+}
+
+
+
+/*
+
+steps01  -  05
