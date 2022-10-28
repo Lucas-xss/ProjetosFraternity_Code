@@ -519,7 +519,7 @@ border: 10px solid ;
 }
 
 /*Campo do conteudo*/
-.field-content3 {
+.field-content3 { 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -527,6 +527,7 @@ border: 10px solid ;
     order: 0;
     width: 386px;
     height: 169px;
+    /* OBS: margem alterada após tradução da página*/
 }
 .field-content3 h3 {
     text-align: center;
@@ -591,8 +592,19 @@ border: 10px solid ;
     order: 1;
 }
 
+/*Campo 04*/
 
+/*Área da section*/
+.field-collection {
 
-/*
+}
 
-steps01  -  05
+/*campo do conteúdo*/
+.field-content4 {
+
+}
+/*campo das cartas de coleção*/
+.field-cardsCollection {
+
+}
+/*cardCollection1 - 07
